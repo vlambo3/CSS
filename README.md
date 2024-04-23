@@ -19,7 +19,7 @@ To explore the code and run the demonstration locally, follow these steps:
 
 1. **Clone the Repository:**
    
-git clone https://github.com/vlambo3/CSS.git
+      git clone https://github.com/vlambo3/CSS.git
 
 2. **Open the HTML File:**
 Navigate to the cloned repository directory and open the `index.html` file in your preferred web browser.
