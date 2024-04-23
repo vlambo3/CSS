@@ -4,7 +4,7 @@ Welcome to the HTML and CSS Showcase repository! This repository serves as a dem
 
 ## Preview
 
-You can view the live demonstration [here](link_to_live_demo).
+You can view the live demonstration [here](htmlandcssshowcaserepository.netlify.app).
 
 ## Features
 
