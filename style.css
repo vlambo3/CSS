@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: darkgrey;
+    overflow: auto;
+    margin: 0;
+}
+
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: rgb(17, 214, 218);
+}
+
+.active {
+    background-color: rgb(8, 236, 240);
+}
+
+.responsive {
+    display: none;
+}
+
+/* espacio entre el icono y el nombre */
+i {
+    padding: 0 5px;
+}
+
+
+@media (max-width:600px) {
+    .responsive{
+        display: block;
+        float: right;
+        padding: 12px;
+    }
+    a{
+        display: none;
+    }
+}
+
+.introduction {
+    text-align: center;
+    /* 15% para que se aleje un poco de los costados */
+    margin: 0 15%;
+}

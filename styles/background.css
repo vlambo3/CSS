@@ -1,0 +1,38 @@
+.grid-container3{
+    display: grid;
+    /*grid-template-columns: 33% 33% 33%;*/
+    grid-template-columns: auto auto auto;
+    background-color: lightgray;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div {
+    /* para que ocupe el 25% de la pantalla y si se achica -> se adapte */
+    width: 25vw;
+    height: 50vh;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.flat {
+    background-color: aquamarine;
+}
+.gradient {
+    background: linear-gradient(to right green blue);
+}
+.image {
+    background-image: url(/assets/fondo.jpg);    
+}
+/*
+.container {
+    position: relative;
+    si achicamos el contenedor, el texto se mantiene centrado
+    width: 500px;
+}
+
+img {
+    width: 75%;
+    height: auto;
+}*/
